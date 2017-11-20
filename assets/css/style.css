@@ -3,7 +3,6 @@
     background: -webkit-linear-gradient(bottom right,#b6cee8,#f578dc);
     background: -moz-linear-gradient(bottom right,#b6cee8,#f578dc);
     background: linear-gradient(bottom right,#b6cee8,#f578dc);
-
 }
 
 .header{
@@ -112,3 +111,68 @@ h4 {
 	text-align: center;
 	padding: 20px;
 }
+
+@media only screen 
+   and (max-width : 1024px) {
+   
+
+.list {
+	margin-left:140px;
+}
+
+.single-display-box {
+	width: 21%;
+	font-size: 30px;
+	padding-top: 10px;
+}
+
+.image{
+	max-width: 190px;
+}
+
+}
+
+@media only screen 
+   and (max-width : 400px) {
+
+
+.list{
+	margin-left: 20px;
+	font-size: 14px;
+}
+
+.single-display-box {
+	margin: 5px;
+	font-size: 18px;
+}
+
+.displayBoxes{
+	margin-left: 2px;
+	width: 105%;
+}
+
+.total-score, .random-number, .display-wins, .display-losses{
+	min-height: 100px;
+}
+
+.image{
+	max-width: 150px;
+}
+
+.crystals {
+  padding-bottom: 100px;
+  margin-top: 20px;
+  padding-left: 0px;
+}
+
+.navbar-btn{
+	margin-right: 80px;
+}
+
+
+.navbar-text{
+	margin-left: 80px;
+}
+
+}
+
